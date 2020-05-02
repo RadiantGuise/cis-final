@@ -2,6 +2,24 @@ body {
     background-color: #000;
 }
 
+.button {
+  width: 5em;
+  border-top: 1px solid #f1f797;
+  background: #8ad665;
+  padding: 6.5px 13px;
+  border-radius: 11px;
+  box-shadow: rgba(0,0,0,1) 0 1px 0;
+  text-shadow: rgba(0,0,0,.4) 0 1px 0;
+  color: white;
+  font-size: 17px;
+  vertical-align: middle;
+  }
+
+.button:hover {
+  background: #28784a;
+  color: #ccc;
+  }
+
 #landing {
     z-index: 1;
     position: relative;
