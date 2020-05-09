@@ -1,46 +1,39 @@
 #container {
     display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .nav { grid-area: 1 / 4 / 2 / 6; }
+    .content { grid-area: 2 / 1 / 5 / 6; }
+    .footer { grid-area: 5 / 1 / 6 / 6; }
+    .header{ grid-area: 1 / 1 / 2 / 4; } 
 
-    /* Set up columns */
-    grid-template-columns: 1fr 2fr 1fr;
-
-    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
-
-    grid-template-areas: "header header header"
-                        "nav content content"
-                        "nav content content"
-                        "footer footer footer";
- 
-    /* Set "margin" between col and row */
-    grid-gap: 1em;
-
-    /* stretch to fill, otherwise 100px by default */
-    grid-auto-rows: minmax(100px, auto)
-}
-
-header {
-    border: 1px solid green;
-
-    /* Start at col 1, end at col 3 */
-    grid-area: header;
+.header {
+    /* border: 1px solid green; */
+    margin-left: 1.66%;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid red;
+    padding-bottom: 10px;
+    width: 30%;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
     background-color: #f1f1f1;
     border: 1px solid black;
+    overflow: hidden;
 }
 
 li {
+    float: right;
     text-align: center;
-    border-bottom: 1px solid black;
-}
-
-li:last-child {
-    border-bottom: none;
+    /* border-bottom: 1px solid black; */
 }
 
 li a {
@@ -53,39 +46,14 @@ li a:hover {
     background-color: #555;
     color: white;
 }
-nav {
+.nav {
     border: 1px solid red;
-    grid-area: nav;
 }
 
 .content {
     border: 1px solid green;
-    grid-area: content;
 }
 
-footer {
+.footer {
     border: 1px solid blue;
-    grid-area: footer;
-}
-
-@media screen and (min-width: 736px) {
-    #container {
-        display: grid;
-    
-        /* Set up columns */
-        grid-template-columns: 1fr 2fr 1fr;
-    
-        /* grid-template-rows: 1fr 1fr 1fr 1fr; */
-    
-        grid-template-areas: "header header header"
-                            "nav content content"
-                            "nav content content"
-                            "footer footer footer";
-     
-        /* Set "margin" between col and row */
-        grid-gap: 1em;
-    
-        /* stretch to fill, otherwise 100px by default */
-        grid-auto-rows: minmax(100px, auto)
-    }
 }
