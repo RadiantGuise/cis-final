@@ -22,6 +22,7 @@ body {
     border-bottom: 2px solid red;
     padding-bottom: 10px;
     width: 30%;
+    height: 24px;
 }
 
 nav ul {
@@ -62,7 +63,7 @@ li a:hover {
 }
 
 .content {
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 .footer {

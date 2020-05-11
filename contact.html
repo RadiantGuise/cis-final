@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pseudo|Corp Contact</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="contact.css">
+    </head>
+    <body>
+        <div id="container">
+            <div class="header">
+                <a href="index.html">Pseudo|Corp</a>
+            </div>
+    
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="image.html">Image Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+    
+            <div class="content">
+                <form method="get">
+                    <label>
+                        First Name: <input type="text" name="fname" id="fname" required>
+                    </label>
+
+                    <br>
+
+                    <label>
+                        Last Name: <input type="text" name="lname" id="lname" required>
+                    </label>
+
+                    <br>
+
+                    <label>
+                        E-Mail: <input type="email" name="email" id="email" required>
+                    </label>
+
+                    <br>
+
+                    <label>
+                        Region: 
+                        <select id="region" name="region" required>
+                            <option value="select">-- Select an Option --</option> 
+                            <option value="africa">Africa</option>   
+                            <option value="asia">Asia</option>
+                            <option value="aus">Australia</option>                            
+                            <option value="eu">Europe</option>                            
+                            <option value="na">North America</option>
+                            <option value="sa">South America</option>
+                            <option value="other">Other</option>
+                        </select>
+
+                        <br>
+
+                        <textarea name="comments" id="comments" required ></textarea>
+                        
+                        <br>
+                        
+                        <input type="submit" value="Submit"><input type="reset">
+                    </label>
+                </form>
+            </div>
+            <div class="footer">
+                &copy;2020 Psuedo Corp, a Fictional subsidiary
+            </div>
+        </div>
+
+    </body>
+</html>
