@@ -58,22 +58,22 @@ body {
 }
 
 .slideshow li:nth-child(1) { 
-    background-image: url("afonso-morais-FBWRgoG_i_0-unsplash.jpg") 
+    background-image: url("image-landing/afonso-morais-FBWRgoG_i_0-unsplash.jpg") 
   }
   .slideshow li:nth-child(2) { 
-    background-image: url("christian-joudrey-DuD5D3lWC3c-unsplash.jpg");
+    background-image: url("image-landing/christian-joudrey-DuD5D3lWC3c-unsplash.jpg");
     animation-delay: 10s; 
   }
   .slideshow li:nth-child(3) { 
-    background-image: url("claudio-schwarz-purzlbaum-SMNIQfGoqL8-unsplash.jpg");
+    background-image: url("image-landing/claudio-schwarz-purzlbaum-SMNIQfGoqL8-unsplash.jpg");
     animation-delay: 20s; 
   }
   .slideshow li:nth-child(4) { 
-    background-image: url("jacek-smoter-rEGEeXPQ1FU-unsplash.jpg");
+    background-image: url("image-landing/jacek-smoter-rEGEeXPQ1FU-unsplash.jpg");
     animation-delay: 30s; 
   }
   .slideshow li:nth-child(5) { 
-    background-image: url("janik-rohland-7GAQQHPWNmE-unsplash.jpg");
+    background-image: url("image-landing/janik-rohland-7GAQQHPWNmE-unsplash.jpg");
     animation-delay: 40s; 
   }
 

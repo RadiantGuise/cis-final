@@ -1,0 +1,25 @@
+img {
+    float: right;
+    width: 30%;
+    margin-left: 1%;
+
+}
+
+.footer {
+    margin-top: 50%;
+}
+
+p {
+    text-align: justify;
+    margin-left: 1%;
+}
+
+blockquote {
+    border-radius: 3px;
+    font-style: italic;
+    padding: 1rem 1.2rem;
+    width: 60%;
+    color: #4a4a4a;
+    background: #E8E8E8;
+
+}
